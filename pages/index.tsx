@@ -1,14 +1,14 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 
-const Home: NextPage = () => {
+const Home = () => {
   return (
     <div >
       <Head>
         <title>QR Code Practice</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div><p className='bg-grey size-xl color-red'>Hello</p></div>
+      <div><p className='test bg-grey size-xl'>Hello, World!</p></div>
     </div>
   )
 }

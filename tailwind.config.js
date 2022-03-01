@@ -7,6 +7,9 @@ module.exports = {
     extend: {
       fontFamily: {
         outfit: ["'Outfit', sans-serif"]
+      },
+      backgroundImage: {
+        'qr': "url('/public/image-qr-code.png')",
       }
     }
   },

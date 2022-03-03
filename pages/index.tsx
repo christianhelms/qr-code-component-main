@@ -17,7 +17,7 @@ const Home = () => {
             priority
            />
           <p className='font-outfit font-bold text-center'>Improve your front-end skills by building projects</p>
-          <p className='font-outift font-normal text-center'>Scan the QR code to visit Front-End Mentor and take your coding skills to the next level.</p>
+          <p className='font-outift font-normal text-center text-sm'>Scan the QR code to visit Front-End Mentor and take your coding skills to the next level.</p>
         </div>
       </div>
     </div>

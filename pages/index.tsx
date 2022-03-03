@@ -11,9 +11,9 @@ const Home = () => {
       <div className='grid place-items-center h-screen'>
         <div className='relative w-66 h-96 bg-white rounded-2xl	p-5 pb-10'>
           <Image
-            src={'/public/image-qr-code.png'}
-            width={150}
-            height={300}
+            src={'/image-qr-code.png'}
+            width={75}
+            height={75}
             priority
            />
           <p className='font-outfit font-bold text-center'>Improve your front-end skills by building projects</p>

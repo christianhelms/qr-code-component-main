@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Home = () => {
   return (
-    <div className='bg-cyan-200' >
+    <div className='bg-gray-blue' >
       <Head>
         <title>QR Code Practice</title>
         <link rel="icon" href="/favicon.ico" />
@@ -18,7 +18,7 @@ const Home = () => {
             priority
            />
           <p className='font-outfit font-bold text-center pb-2'>Improve your front-end skills by building projects</p>
-          <p className='font-outift font-normal text-center text-sm'>Scan the QR code to visit Front-End Mentor and take your coding skills to the next level.</p>
+          <p className='font-outift font-normal text-light-gray text-center text-sm'>Scan the QR code to visit Front-End Mentor and take your coding skills to the next level.</p>
         </div>
       </div>
     </div>
